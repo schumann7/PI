@@ -6,7 +6,8 @@ header{
     background-color: #ffffff;
     display: flex;
     align-items: center;
-    position: sticky;}
+    position: sticky;
+    top: 0;}
 .logo {
     height: 100px;
     width: 100px;
@@ -16,6 +17,7 @@ header{
     margin-right: auto;}
 .links {
     display: flex;
+    padding-right: 20px;
     align-items: center;}
 .link {
     text-decoration: none;
@@ -44,7 +46,8 @@ header{
 .imagem {
     width: 650px;
     height: auto;
-    margin-right: 40px;}
+    margin-right: 80px;
+    filter: drop-shadow(8px 8px 5px black);}
 .content {
     flex: 1;
     text-align: right;}
@@ -52,17 +55,17 @@ header{
     font-size: 32pt;
     color: #409d9d;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
     text-align: left;}
 .leidecotas {
     font-size: 23pt;
     margin-bottom: 10px;
-    margin-left: 20px;
+    margin-left: 40px;
     text-align: left;}
 .lorem {
     font-size: 16pt;
     margin-bottom: 5px;
-    margin-left: 20px;
+    margin-left: 40px;
     text-align: justify;}
 .saibamais {
     background-color: #409d9d;
@@ -72,11 +75,10 @@ header{
     padding: 5px 10px;
     border-radius: 15px;
     cursor: pointer;
-    margin-left: 16px;
+    margin-left: 36px;
     margin-top: 25px;}
 .container-botao {
-    text-align: left;
-}
+    text-align: left;}
 .saibamais:hover {
     font-size: 200%;
     background-color: #064747;
@@ -89,13 +91,16 @@ header{
 .foto5 {
     width: 400px;
     height: auto;
-    margin-right: 20px;
-    margin-left: 10px;}
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 60px;
+    filter: drop-shadow(8px 8px 5px black);}
 .txtlei {
     flex: 1;
     font-size: 16pt;
     margin-bottom: 10px;
-    margin-right: 30px;
+    margin-right: 65px;
+    margin-top: 40px;
     text-align: justify;}
 .leidecotas1 {
     font-size: 32pt;
@@ -117,7 +122,9 @@ header{
 .oioioi {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;}
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;}
 .dicas {
     font-size: 32pt;
     margin-bottom: 20px;
@@ -135,7 +142,8 @@ header{
     justify-content: center;}
 .image {
     max-width: 170px;
-    height: auto;}
+    height: auto;
+    filter: drop-shadow(8px 8px 5px black);}
 footer {
     background-color: #577272;
     color: #fff;
