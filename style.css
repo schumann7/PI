@@ -73,7 +73,7 @@ header{
     border-radius: 15px;
     cursor: pointer;
     margin-left: 16px;
-    margin-top: 5px;}
+    margin-top: 25px;}
 .container-botao {
     text-align: left;
 }
@@ -89,12 +89,13 @@ header{
 .foto5 {
     width: 400px;
     height: auto;
-    margin-right: 20px;}
+    margin-right: 20px;
+    margin-left: 10px;}
 .txtlei {
     flex: 1;
     font-size: 16pt;
     margin-bottom: 10px;
-    margin-right: 40px;
+    margin-right: 30px;
     text-align: justify;}
 .leidecotas1 {
     font-size: 32pt;
