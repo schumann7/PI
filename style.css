@@ -71,7 +71,12 @@ header{
     border: none;
     padding: 5px 10px;
     border-radius: 15px;
-    cursor: pointer;}
+    cursor: pointer;
+    margin-left: 16px;
+    margin-top: 5px;}
+.container-botao {
+    text-align: left;
+}
 .saibamais:hover {
     font-size: 200%;
     background-color: #064747;
