@@ -1,82 +1,111 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="imagex/png" href="1-removebg-preview.png">
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
-    <title>Conectados pela Inclusão</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="imagex/png" href="1-removebg-preview.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <title>Conectados pela Inclusão</title>
 </head>
-<header>
-    <img class="logo" src="1-removebg-preview.png" alt="Logo Conectados pela Inclusão">
-    <h1 class="titulo">Conectados pela Inclusão</h1>
-    <div class="links">
-      <a href="#" class="link">INÍCIO</a>
-      <a href="#" class="link">LEIS</a>
-      <a href="#" class="link">DICAS</a>
-    </div>
-    </div>
-    <div class="search-box">
-      <input type="text" class="search-input" placeholder="Pesquisar...">
-      <span class="search-icon" onclick="toggleSearchInput()">&#128269;</span>
-    </div>
+<header id="header">
+  <img class="logo" src="1-removebg-preview.png" alt="Logo Conectados pela Inclusão">
+  <h1 class="titulo" id="titulo">Conectados pela Inclusão</h1>
+  <div class="links">
+    <a href="#" class="link" id="link">INÍCIO</a>
+    <a href="#divdicas" class="link" id="link1">DICAS</a>
+    <a style="padding-right: 45px; " href="#leis" class="link" id="link2">ARTIGO</a>
+  </div>
 </header>
-<body>
-    <div vw class="enabled">
-        <div vw-access-button class="active"></div>
-        <div vw-plugin-wrapper>
-          <div class="vw-plugin-top-wrapper"></div>
-        </div>
-      </div>
-      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
-      <script>
-        new window.VLibras.Widget('https://vlibras.gov.br/app');
-      </script>
+<body id="body">
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <div class="contraste" id="contraste">
+    <button class="contrastebutton" id="toggle-contrast" onclick="Contraste()"><img class="contrasteimg" src="contraste.png" alt="contraste"></button>
+  </div>
+  <div class="aumentarfonte" id="aumentarfonte">
+    <button class="aumentarfontebutton" onclick="Aumentar()"><img class="aumentarfonteimg" src="aumentar-o-tamanho-da-fonte.png" alt="aumentarfonte"></button>
+  </div>
+  <div class="diminuirfonte" id="diminuirfonte">
+    <button class="diminuirfontebutton" onclick="Diminuir()"><img class="diminuirfonteimg" src="diminuir-o-tamanho-da-fonte.png" alt="diminuirfonte"></button>
+  </div>
   <div class="container">
     <div class="content">
-      <h2 class="pergunta">Inclusão Social de Pessoas com Deficiência no Mercado de Trabalho</h2>
-      <h4 class="leidecotas">Lei de Cotas</h4>
-      <p class="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum placeat facere quae consequuntur dicta magnam, aliquid molestiae et, repudiandae esse sed deserunt nisi. Blanditiis tempore obcaecati corporis odit cupiditate.</p>
+      <h2 class="pergunta" id="pergunta">Inclusão Social de Pessoas com Deficiência no Mercado de Trabalho</h2>
+      <h4 class="leidecotas" id="leidecotas">Lei de Cotas</h4>
+      <p class="lorem" id="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum placeat facere quae
+        consequuntur dicta magnam, aliquid molestiae et, repudiandae esse sed deserunt nisi. Blanditiis tempore
+        obcaecati corporis odit cupiditate.</p>
       <div class="container-botao">
-        <a href="https://www.google.com" target="_blank"><button class="saibamais">Saiba Mais</button></a>
+        <a href="#divdicas"><button class="saibamais" id="saibamais">Saiba Mais</button></a>
       </div>
     </div>
-    <img class="imagem" src="foto1.png" alt="Fotos">
+    <img class="imagem" src="primeirafoto.png" alt="Fotos">
   </div>
-  <div class="divlei">
-    <img class="foto5" src="foto5.png" alt="Cadeirante mexendo em notebook">
-    <div class="txtlei">
-      <h4 class="leidecotas1">Lei de Cotas</h4>
-      <p class="lorem1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum placeat facere quae consequuntur dicta magnam, aliquid molestiae et, repudiandae esse sed deserunt nisi. Blanditiis tempore obcaecati corporis odit cupiditate Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, quas harum impedit cum non, alias adipisci ad error dolorem optio odit expedita aliquid labore minima voluptas molestiae, dolore placeat iste.</p>
-      <a href="https://scholar.google.com" target="_blank"><button class="botaoartigos"> Artigos</button></a>
-    </div>
-  </div>
-  <div class="oioioi">
-    <h1 class="dicas">Dicas</h1>
+  <div class="divdicas" id="divdicas">
+    <h1 class="dicas" id="dicas">Dicas para a inclusão de PCDs no mercado de trabalho</h1>
     <div class="lista-container">
       <ul class="list">
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
+        <li class="li" id="li">Monitoramento e Feedback</li>
+        <p class="pli" id="pli">Acompanhe regularmente a eficácia das políticas de inclusão e diversidade, coletando feedback dos
+          funcionários e ajustando as práticas conforme necessário.</p>
+        <li class="li" id="li1">Políticas de inclusão</li>
+        <p class="pli" id="pli1">As empresas devem estabelecer políticas claras de inclusão que demonstrem seu compromisso em
+          contratar e apoiar PCDs. Essas políticas devem ser comunicadas a todos os funcionários para promover a
+          conscientização.</p>
+        <li class="li" id="li2">Acessibilidade física</li>
+        <p class="pli" id="pli2">É importante que o local de trabalho seja acessível para pessoas com deficiência. Isso pode
+          envolver a instalação de rampas, corrimãos, elevadores, banheiros adaptados e sinalização adequada.</p>
+        <li class="li" id="li3">Treinamento e conscientização</li>
+        <p class="pli" id="pli3">É essencial oferecer treinamento regular aos funcionários sobre inclusão, conscientização sobre
+          deficiência e sensibilização para eliminar preconceitos e estereótipos.</p>
       </ul>
       <ul class="list">
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
-        <li>Lorem ipsum dolor sit amet, consectetur</li>
+        <li class="li" id="li4">Desenvolvimento de carreira</li>
+        <p class="pli" id="pli4">Forneça oportunidades de desenvolvimento e progressão de carreira para os funcionários PCDs. Isso
+          pode incluir treinamentos específicos, mentoring, programas de capacitação e avaliações justas de desempenho.
+        </p>
+        <li class="li" id="li5">Cultura inclusiva</li>
+        <p class="pli" id="pli5">É importante criar uma cultura organizacional que valorize a diversidade e a inclusão. Isso pode
+          ser alcançado por meio de políticas antidiscriminação, grupos de afinidade, eventos de conscientização e
+          celebração da diversidade.</p>
+        <li class="li" id="li6">Acessibilidade digital</li>
+        <p class="pli" id="pli6">Certifique-se de que os sites, aplicativos e sistemas internos da empresa, sejam acessíveis a
+          PCDs. Por meio de padrões de design, leitores de tela, opções de contraste visual e legendas em vídeos.</p>
+        <li class="li" id="li7">Adaptação de tarefas e equipamentos</li>
+        <p class="pli" id="pli7">Esteja aberto a adaptar tarefas e fornecer equipamentos ou tecnologias assistivas para permitir
+          que os funcionários PCDs desempenhem suas funções de maneira eficaz.</p>
       </ul>
     </div>
-    <div class="image-container">
-      <img src="imagem1.png" alt="Imagem 1" class="image">
-      <img src="imagem2.png" alt="Imagem 2" class="image">
-      <img src="imagem3.png" alt="Imagem 3" class="image">
-      <img src="imagem4.png" alt="Imagem 4" class="image">
+  </div>
+  <div class="image-container">
+    <img src="imagem1.png" alt="Imagem 1" class="image">
+    <img src="imagem2.png" alt="Imagem 2" class="image">
+    <img src="imagem3.png" alt="Imagem 3" class="image">
+    <img src="imagem4.png" alt="Imagem 4" class="image">
+  </div>
+  <div class="divlei" id="leis">
+    <img class="foto5" src="segundafoto.png" alt="Cadeirante mexendo em notebook">
+    <div class="txtlei" id="txtlei">
+      <h4 class="leidecotas1" id="leidecotas1">Artigo</h4>
+      <p class="lorem1">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem harum placeat facere quae
+        consequuntur dicta magnam, aliquid molestiae et, repudiandae esse sed deserunt nisi. Blanditiis tempore
+        obcaecati corporis odit cupiditate Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure, quas harum
+        impedit cum non, alias adipisci ad error dolorem optio odit expedita aliquid labore minima voluptas molestiae,
+        dolore placeat iste.</p>
+      <a href="https://scholar.google.com" target="_blank"><button class="botaoartigos" id="botaoartigos">Artigo</button></a>
     </div>
   </div>
 </body>
-<footer>
+<footer id="footer">
   <div class="footer-content">
     <span class="span">&copy; 2023 Conectados pela Inclusão. Todos os direitos reservados.</span>
     <img class="ifc" src="image-removebg-preview.png" alt="Logoif">
@@ -85,13 +114,16 @@
   <div class="footer-content">
     <div class="footer-links">
       <a href="#" class="footer-link">INÍCIO</a>
-      <a href="#" class="footer-link">LEIS</a>
-      <a href="#" class="footer-link">DICAS</a>
+      <a href="#divdicas" class="footer-link">DICAS</a>
+      <a href="#leis" class="footer-link">ARTIGO</a>
     </div>
     <div class="social-icons">
-      <a href="https://www.instagram.com/conectadospelainclusao/" target="_blank"><img src="instagram-icon.png" alt="Instagram" class="social-icon"></a>
-      <a href="https://www.facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook" class="social-icon"></a>
-      <a href="https://twitter.com/?lang=pt" target="_blank"><img src="twitter-icon.png" alt="Twitter" class="social-icon"></a>
+      <a href="https://www.instagram.com/conectadospelainclusao/" target="_blank"><img src="instagram-icon.png"
+          alt="Instagram" class="social-icon"></a>
+      <a href="https://www.facebook.com" target="_blank"><img src="facebook-icon.png" alt="Facebook"
+          class="social-icon"></a>
+      <a href="https://twitter.com/conectpinclusao" target="_blank"><img src="twitter-icon.png" alt="Twitter"
+          class="social-icon"></a>
     </div>
   </div>
 </footer>
