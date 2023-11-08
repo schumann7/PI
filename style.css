@@ -165,7 +165,7 @@ header{
     margin-top: 40px;
     text-align: justify;}
 .leidecotas1 {
-    font-size: 32pt;
+    font-size: 28pt;
     color: #409d9d;
     margin-bottom: 10px;}
 .botaoartigos {
@@ -210,8 +210,8 @@ header{
     justify-content: center;
     align-items: center;}
 .image {
-    max-width: 170px;
-    height: auto;
+    width: 160px;
+    height: 130px;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
 footer {
     background-color: #577272;

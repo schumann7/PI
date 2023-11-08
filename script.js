@@ -40,13 +40,13 @@ function Contraste(){
         document.getElementById('botaoartigos').style.border = 'none'
     }
 }
-
 let tamanhotitulo = 32
 let tamanholink = 18
 let tamanholeidecotas = 23
 let tamanholorem = 16
 let tamanhosaibamais = 19
 let tamanhopli = 12
+let tamanholeidecotas1 = 28
 function Aumentar(){
     tamanhotitulo+=1
     tamanholink+=1
@@ -54,6 +54,7 @@ function Aumentar(){
     tamanholorem+=1
     tamanhosaibamais+=1
     tamanhopli+=1
+    tamanholeidecotas1+=1
     document.getElementById('titulo').style.fontSize = tamanhotitulo + "pt";
     document.getElementById('link').style.fontSize = tamanholink + "pt";
     document.getElementById('link1').style.fontSize = tamanholink + "pt";
@@ -79,11 +80,10 @@ function Aumentar(){
     document.getElementById('pli5').style.fontSize = tamanhopli + "pt";
     document.getElementById('pli6').style.fontSize = tamanhopli + "pt";
     document.getElementById('pli7').style.fontSize = tamanhopli + "pt";
-    document.getElementById('leidecotas1').style.fontSize = tamanhotitulo + "pt";
+    document.getElementById('leidecotas1').style.fontSize = tamanholeidecotas1 + "pt";
     document.getElementById('txtlei').style.fontSize = tamanholorem + "pt";
     document.getElementById('botaoartigos').style.fontSize = tamanhosaibamais + "pt";
 }
-
 function Diminuir(){
     tamanhotitulo-=1
     tamanholink-=1
@@ -91,6 +91,7 @@ function Diminuir(){
     tamanholorem-=1
     tamanhosaibamais-=1
     tamanhopli-=1
+    tamanholeidecotas1-=1
     document.getElementById('titulo').style.fontSize = tamanhotitulo + "pt";
     document.getElementById('link').style.fontSize = tamanholink + "pt";
     document.getElementById('link1').style.fontSize = tamanholink + "pt";
@@ -116,7 +117,7 @@ function Diminuir(){
     document.getElementById('pli5').style.fontSize = tamanhopli + "pt";
     document.getElementById('pli6').style.fontSize = tamanhopli + "pt";
     document.getElementById('pli7').style.fontSize = tamanhopli + "pt";
-    document.getElementById('leidecotas1').style.fontSize = tamanhotitulo + "pt";
+    document.getElementById('leidecotas1').style.fontSize = tamanholeidecotas1 + "pt";
     document.getElementById('txtlei').style.fontSize = tamanholorem + "pt";
     document.getElementById('botaoartigos').style.fontSize = tamanhosaibamais + "pt";
 }
