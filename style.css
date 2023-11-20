@@ -1,18 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #fff;
+    background-color: #F5F2E6;
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-.high-contrast body {
-    background-color: #000;
-    color: #fff;
-}
 html{
-    scroll-behavior: smooth;
-}
+    scroll-behavior: smooth;}
 header{
-    background-color: #ffffffff;
+    background-color: #F5F2E6;
     box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22);
     display: flex;
     align-items: center;
@@ -20,9 +15,6 @@ header{
     max-height: 90px;
     top: 0;
     z-index: 1000;}
-.high-contrast header {
-    background-color: #000;
-}
 .logo {
     height: 90px;
     width: 90px;
@@ -106,8 +98,9 @@ header{
     padding: 10px;}
 .imagem {
     width: 650px;
-    height: auto;
-    margin-right: 40px;}
+    height: 450px;
+    margin-right: 40px;
+    margin-top: 50px;}
 .content {
     flex: 1;
     text-align: right;}
@@ -150,6 +143,7 @@ header{
     display: flex;
     align-items: center;
     padding: 20px;
+    padding-top: 70px;
     margin-bottom: 50px;}
 .foto5 {
     width: 400px;
@@ -162,18 +156,21 @@ header{
     font-size: 16pt;
     margin-bottom: 10px;
     margin-right: 65px;
-    margin-top: 40px;
+    margin-top: 0px;
     text-align: justify;}
 .leidecotas1 {
-    font-size: 28pt;
+    font-size: 32pt;
     color: #409d9d;
     margin-bottom: 10px;}
+.lorem1 {
+    padding-top: 20px;}
 .botaoartigos {
     background-color: #409d9d;
     font-size: 19pt;
     color: #fff;
     border: none;
     padding: 5px 10px;
+    margin-top: 10px;
     border-radius: 15px;
     cursor: pointer;}
 .botaoartigos:hover {
@@ -184,7 +181,7 @@ header{
 .divdicas {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 20px;}
+    padding-top: 70px;}
 .dicas {
     font-size: 32pt;
     margin-top: 20px;
@@ -197,11 +194,12 @@ header{
 .list {
     width: 50%;}
 .li {
-    font-size: 16pt;
-    margin-top: -4px;
-}
+    font-size: 19pt;
+    margin-top: -4px;}
+.li4 {
+    margin-top: 20px;}
 .pli {
-    font-size: 12pt;
+    font-size: 15pt;
     text-align: justify;
     margin-top: 4px;}
 .image-container {
@@ -210,11 +208,47 @@ header{
     justify-content: center;
     align-items: center;}
 .image {
-    width: 160px;
-    height: 130px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+    width: 230px;
+    height: 200px;
+    padding-left: 20px;}
+.pularimagem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 20px;}
+.botaovoltarimagens{
+    border-color: white;
+    border-radius: 40%;
+    text-align: center;
+    align-items: center;
+    font-size: 18pt;
+    padding: 2px 5px 2px 5px;
+    color: #fff;
+    background-color: #409d9d;
+    margin-right: 5px;}
+.botaovoltarimagens:hover {
+    font-size: 200%;
+    background-color: #064747;
+    border-color: #064747;
+    transition: all 0.5s ease-in;}
+.botatopularimagens{
+    border-color: white;
+    border-radius: 40%;
+    text-align: center;
+    align-items: center;
+    font-size: 18pt;
+    padding: 2px 5px 2px 5px;
+    color: #fff;
+    background-color: #409d9d;
+    margin-left: 5px;}
+.botatopularimagens:hover {
+    font-size: 200%;
+    background-color: #064747;
+    border-color: #064747;
+    transition: all 0.5s ease-in;}
 footer {
-    background-color: #577272;
+    background-color: #216b6b;
     color: #fff;
     text-align: center;
     padding: 20px 0;
