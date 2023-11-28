@@ -25,8 +25,8 @@ function Contraste(){
     }
     else{
         contraste=0
-        document.getElementById('header').style.backgroundColor = '#F5F2E6'
-        document.getElementById('body').style.backgroundColor = '#F5F2E6'
+        document.getElementById('header').style.backgroundColor = '#fff'
+        document.getElementById('body').style.backgroundColor = '#fff'
         document.getElementById('titulo').style.color = 'black'
         document.getElementById('link').style.color = 'black'
         document.getElementById('link1').style.color = 'black'
