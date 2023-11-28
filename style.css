@@ -1,13 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #F5F2E6;
+    background-color: #FFFFFF;
     color: #000;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 html{
     scroll-behavior: smooth;}
 header{
-    background-color: #F5F2E6;
+    background-color: #FFFFFF;
     box-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 4px 10px rgba(0,0,0,0.22);
     display: flex;
     align-items: center;
